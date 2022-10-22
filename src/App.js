@@ -1,11 +1,15 @@
+import { Route, Routes, Navigate } from "react-router-dom";
+
+import Header from './Components/UI/Header';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Freature Test1A</p>
-      </header>
+      <Header />
+      <Routes>
+      <Route to="/"/>
+      </Routes>
     </div>
   );
 }
