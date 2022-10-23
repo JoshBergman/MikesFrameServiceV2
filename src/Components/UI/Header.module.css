@@ -1,7 +1,61 @@
-.secondStyle {
-    width: 100px;
-    height: 100px;
+.headerContainer {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 0px 15px;
 }
-.a{
-color: rgb(211, 41, 29)
+
+.logoDiv {
+
+
+    display: inline-block;
+    height: 100%;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.mikesContainer {
+
+    
+    height: 59%;
+    width: 100%;
+    margin-bottom: -15px;
+}
+
+.mikes {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.frameService {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.frameServiceContainer {
+
+
+    height: 39%;
+    width:100%;
+}
+
+.navContainer {
+    height: 100%;
+    width: 50%;
+    float: right;
+
+}
+
+.underline {
+    height: 5px;
+    width: 66%;
+    margin-top: -9px
+}
+
+@media (max-width: 500px) {
+    .navContainer {
+        width: 21%;
+    }
 }
