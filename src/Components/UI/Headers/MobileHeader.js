@@ -1,7 +1,8 @@
 import React, { useState, useContext } from 'react';
 import { Link } from "react-router-dom";
-import StyleData from '../../../store/StyleContext';
 
+import StyleData from '../../../store/StyleContext';
+import MenuModal from './MenuModal';
 import styles from './MobileHeader.module.css';
 
 const MobileHeader = () => {
@@ -9,10 +10,6 @@ const MobileHeader = () => {
 
     const hamburgerStyle = {
         "background-color" : stylectx.navWordColor
-    };
-
-    const navWordStyle = {
-        "color" : stylectx.navWordColor
     };
 
     const hamburgerBunStyle = {
@@ -27,14 +24,17 @@ const MobileHeader = () => {
 
     return (
         <React.Fragment>
-        <button className={styles.burgerButton} onClick={toggleMenuHandler}>
+        <button style={isShowingMenu ? {transform: "rotate(90deg)"} : {transform: "rotate(0deg)"}} className={styles.burgerButton} onClick={toggleMenuHandler}>
             <div style={hamburgerBunStyle} className={styles.hamburgerStyle}>
                 <div style={hamburgerStyle} className={styles.hamburgerSlices} />
                 <div style={hamburgerStyle} className={styles.hamburgerSlices} />
                 <div style={hamburgerStyle} className={styles.hamburgerSlices} />
             </div>
-            {isShowingMenu && <p>Is showing menu!</p>}
         </button>
+        {isShowingMenu && 
+            <MenuModal menuToggler={toggleMenuHandler} />
+        }
+
         {/* <Link to="/services" className={styles.navLink} >Services</Link>
         <Link to="/about" className={styles.navLink} >About</Link>
         <Link to="/find-us" className={styles.navLink} >Find Us</Link> */}
