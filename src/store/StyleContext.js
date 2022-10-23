@@ -7,7 +7,7 @@ const StyleData = createContext({
 export const StyleContextProvider = (props) => {
 
     const context = {
-        mainColor1 : "yellow"
+        mainColor1 : "#EA291B"
     }
 
     return (
