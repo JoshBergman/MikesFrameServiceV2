@@ -1,0 +1,9 @@
+.modal {
+    position: fixed;
+    top: 80px;
+
+    width: 100%;
+    height: fit-content;
+
+    overflow:hidden;
+}

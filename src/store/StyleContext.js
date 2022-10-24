@@ -5,6 +5,7 @@ const StyleData = createContext({
     mutedMainColor1 : "color",
     logoTextColor : "color",
     navWordColor : "color",
+    pageColor : "color",
 });
 
 export const StyleContextProvider = (props) => {
@@ -13,7 +14,8 @@ export const StyleContextProvider = (props) => {
         mainColor1 : "#EA291B",
         mutedMainColor1 : "#A61F15",
         logoTextColor : "white",
-        navWordColor : "white"
+        navWordColor : "white",
+        pageColor : "blue"
     }
 
     return (

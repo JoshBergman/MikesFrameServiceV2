@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import ReactDOM  from 'react-dom';
 import { Link } from 'react-router-dom';
 import StyleData from '../../../store/StyleContext';
+import { BsTelephoneFill } from 'react-icons/bs';
 
 import styles from './MenuModal.module.css';
 
@@ -27,7 +28,6 @@ const MenuModal = (props) => {
 
     return ReactDOM.createPortal(
         <React.Fragment>
-            
         <div onClick={props.menuToggler} className={styles.modal}>
             <div style={navContainerStyle} className={styles.navContainer}>
                 <div style={navDivstyle} className={styles.linkContainer}>
@@ -41,6 +41,9 @@ const MenuModal = (props) => {
                 </div>
                 <div style={navDivstyle} className={styles.linkContainer}>
                     <Link style={navWordStyle} className={styles.navWord} to="/home">Home</Link>
+                </div>
+                <div style={{...navDivstyle, "border-bottom": 0}} className={styles.linkContainer}>
+                    <a style={navWordStyle} className={styles.navWord} href="tel:+16514473238"><BsTelephoneFill className={styles.phoneIcon} /></a>
                 </div>
             </div>
         </div>
