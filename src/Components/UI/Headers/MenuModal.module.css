@@ -2,4 +2,35 @@
     background-color: rgba(0, 0, 0, 0.718);
     width: 100vw;
     height: 100vh;
+    transition: all 1s ease-in-out;
+}
+
+.navContainer {
+    background-color: green;
+    
+    height: 100%;
+    width: 200px;
+    float: right;
+}
+
+.linkContainer {
+    width: fit-content;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: -50px;
+    border-bottom: 2px solid white;
+}
+
+.navWord {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navWord:active{
+    text-decoration: underline;
+}
+
+.navWord:hover{
+    text-decoration: underline;
 }

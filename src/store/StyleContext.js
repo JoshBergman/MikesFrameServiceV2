@@ -2,14 +2,16 @@ import { createContext } from "react";
 
 const StyleData = createContext({
     mainColor1 : "color",
+    mutedMainColor1 : "color",
     logoTextColor : "color",
-    navWordColor : "color"
+    navWordColor : "color",
 });
 
 export const StyleContextProvider = (props) => {
 
     const context = {
         mainColor1 : "#EA291B",
+        mutedMainColor1 : "#A61F15",
         logoTextColor : "white",
         navWordColor : "white"
     }
