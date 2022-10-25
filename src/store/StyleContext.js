@@ -15,7 +15,7 @@ export const StyleContextProvider = (props) => {
         mutedMainColor1 : "#A61F15",
         logoTextColor : "white",
         navWordColor : "white",
-        pageColor : "blue"
+        pageColor : "white"
     }
 
     return (

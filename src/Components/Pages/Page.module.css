@@ -1,0 +1,7 @@
+.slideShowContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    width: 80vw;
+    height: fit-content;
+    z-index: 10;
+}
