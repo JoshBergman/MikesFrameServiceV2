@@ -1,0 +1,23 @@
+.headingContainer {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mainText {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 2px;
+}
+
+.subText {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin: 2px;
+    margin-top: -5px;
+    font-style: italic;
+}

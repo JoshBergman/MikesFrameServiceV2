@@ -7,7 +7,7 @@ const PageTemplate = (props) => {
     const stylectx = useContext(StyleData);
 
     const pageStyle = {
-        "background-color": stylectx.pageColor
+        "backgroundColor": stylectx.pageColor
     };
 
     

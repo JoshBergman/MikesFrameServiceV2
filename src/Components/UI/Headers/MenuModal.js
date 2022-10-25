@@ -12,8 +12,8 @@ const MenuModal = (props) => {
 
 
     const navContainerStyle = {
-        "background-color" : stylectx.mutedMainColor1,
-        "border-left" : ("2px solid " + stylectx.logoTextColor)
+        "backgroundColor" : stylectx.mutedMainColor1,
+        "borderLeft" : ("2px solid " + stylectx.logoTextColor)
     };
 
     const navDivstyle = {
@@ -42,7 +42,7 @@ const MenuModal = (props) => {
                 <div style={navDivstyle} className={styles.linkContainer}>
                     <Link style={navWordStyle} className={styles.navWord} to="/home">Home</Link>
                 </div>
-                <div style={{...navDivstyle, "border-bottom": 0}} className={styles.linkContainer}>
+                <div style={{...navDivstyle, "borderBottom": 0}} className={styles.linkContainer}>
                     <a style={navWordStyle} className={styles.navWord} href="tel:+16514473238"><BsTelephoneFill className={styles.phoneIcon} /></a>
                 </div>
             </div>

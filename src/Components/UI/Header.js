@@ -26,7 +26,7 @@ const Header = () => {
     const stylectx = useContext(StyleData);
 
     const divStyle = {
-        "background-color": stylectx.mainColor1,
+        "backgroundColor": stylectx.mainColor1,
     };
 
     const logoTextStyle = {
@@ -34,7 +34,7 @@ const Header = () => {
     };
 
     const logoTextUnderline = {
-        "background-color" : stylectx.logoTextColor
+        "backgroundColor" : stylectx.logoTextColor
     };
 
     return (

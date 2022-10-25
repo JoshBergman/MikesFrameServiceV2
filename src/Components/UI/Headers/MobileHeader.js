@@ -9,11 +9,11 @@ const MobileHeader = () => {
     const stylectx = useContext(StyleData);
 
     const hamburgerStyle = {
-        "background-color" : stylectx.navWordColor
+        "backgroundColor" : stylectx.navWordColor
     };
 
     const hamburgerBunStyle = {
-        "background-color" : "transparent"
+        "backgroundColor" : "transparent"
     };
 
     const [isShowingMenu, setIsShowingMenu] = useState(false);
