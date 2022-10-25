@@ -9,6 +9,9 @@ const PageTemplate = (props) => {
     const pageStyle = {
         "background-color": stylectx.pageColor
     };
+
+    
+
     return (
     <React.Fragment>
         <div className={styles.spacerDiv} />

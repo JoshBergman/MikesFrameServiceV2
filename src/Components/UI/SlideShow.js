@@ -1,10 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 
 import styles from './SlideShow.module.css';
+import StyleData from '../../store/StyleContext';
 
 const SlideShow = () => {
     const [currImg, setCurrImg] = useState(0);
+    const stylectx = useContext(StyleData);
+
+    const arrowStyle = {
+      color : stylectx.mainColor1
+    };
 
     const incrementImg = () => {
       if(currImg === (images.length - 1)){
@@ -36,15 +42,21 @@ const imgElements = {};
       
           return (
             <React.Fragment>
-              <div className={styles.container}>
-                  <div className={styles.arrowContainer}>
-                    <button onClick={decrementImg} className={styles.backBtn}><BsChevronLeft className={styles.icon} /></button>
-                  </div>
-                    {imgElements[currImg]}
-                  <div className={styles.arrowContainer}>
-                    <button onClick={incrementImg} className={styles.forwardBtn}><BsChevronRight className={styles.icon} /></button>
-                  </div>
+              <div className={styles.slideShowContainer}>
+                <div className={styles.arrowContainer}>
+                  <button onClick={decrementImg} className={styles.button} >
+                    <BsChevronLeft className={styles.arrowLeft} style={arrowStyle} />
+                  </button>
                 </div>
+                <div className={styles.imgContainer} >
+                  {imgElements[currImg]}
+                </div>
+                <div className={styles.arrowContainer} >
+                  <button onClick={incrementImg} className={styles.button} >
+                    <BsChevronRight className={styles.arrowRight} style={arrowStyle} />
+                  </button>
+                </div>
+              </div>
             </React.Fragment>
           );
       };

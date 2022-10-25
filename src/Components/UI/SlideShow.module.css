@@ -1,42 +1,46 @@
-.pic {
-    width: 80%;
-    height: 100%;
-    border: 1px solid black;
-    box-shadow: 0px 0px 15px;
-}
-
-.forwardBtn {
-    background-color: transparent;
-    border: 0 solid transparent;
-
-    width: fit-content;
-    font-size: 40px;
-    margin: 0;
-}
-
-.backBtn {
-    background-color: transparent;
-    border: 0 solid transparent;
-
-    width: fit-content;
-    font-size: 40px;
-    margin: 0;
-}
-
-.container {
+.slideShowContainer {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     height: fit-content;
-    overflow: hidden;
+}
+
+.pic {
+    width: 100%;
+    box-shadow: 0px 0px 15px;
+}
+
+.imgContainer {
+    width: 80%;
 }
 
 .arrowContainer {
     width: fit-content;
-    margin-top: 25%;
+    height: 50%;
+    margin: auto 0;
 }
 
-.icon {
-    margin: 0;
-    
+.button {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.arrowLeft {
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.arrowRight {
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.arrowLeft:hover {
+    transform: translateX(-10px);   
+}
+
+.arrowRight:hover {
+    transform: translateX(10px);   
 }
