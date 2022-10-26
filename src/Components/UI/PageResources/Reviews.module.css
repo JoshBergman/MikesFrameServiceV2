@@ -1,0 +1,35 @@
+.flexContainer {
+    width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.reviewContainer {
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.titleDiv {
+    width: fit-content;
+    height: fit-content;
+}
+
+.descDiv {
+    width: 100%;
+    height: fit-content;
+}
+
+.reviewAuthor {
+    font-size: 22px;
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.starsDiv {
+    display: inline-block;
+}

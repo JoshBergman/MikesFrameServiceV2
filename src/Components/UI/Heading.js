@@ -25,8 +25,13 @@ const Heading = (props) => {
         "textAlign" : props.subtextAlign,
     };
 
+    const containerStyle = {
+        "marginTop" : props.boxTop,
+        "marginBottom" : props.boxBottom
+    };
+
     return (
-        <div className={styles.headingContainer}>
+        <div style={containerStyle} className={styles.headingContainer} >
             <h1
             style={textStyle} 
             className={styles.mainText}

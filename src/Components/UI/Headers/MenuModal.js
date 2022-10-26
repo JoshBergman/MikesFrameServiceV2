@@ -43,7 +43,7 @@ const MenuModal = (props) => {
                     <Link style={navWordStyle} className={styles.navWord} to="/home">Home</Link>
                 </div>
                 <div style={{...navDivstyle, "borderBottom": 0}} className={styles.linkContainer}>
-                    <a style={navWordStyle} className={styles.navWord} href="tel:+16514473238"><BsTelephoneFill className={styles.phoneIcon} /></a>
+                    <a style={navWordStyle} className={styles.navWord} href="tel:+16127243240"><BsTelephoneFill className={styles.phoneIcon} /></a>
                 </div>
             </div>
         </div>

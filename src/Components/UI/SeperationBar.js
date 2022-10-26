@@ -7,11 +7,11 @@ const SeperationBar = () => {
     const stylectx = useContext(StyleData);
 
     const barStyle = {
-        "background-color" : stylectx.mutedMainColor1,
+        "backgroundColor" : stylectx.mutedMainColor1,
     };
     
     return (
-        <div style={barStyle} className={styles.bar} />
+        <div style={barStyle} className={styles.bar} ></div>
     );
 };
 

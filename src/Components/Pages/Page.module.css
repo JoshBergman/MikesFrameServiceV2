@@ -5,3 +5,17 @@
     height: fit-content;
     z-index: 10;
 }
+
+.flexContainer {
+    width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.listItem {
+    text-align: left;
+    margin-left: -20px;
+}
