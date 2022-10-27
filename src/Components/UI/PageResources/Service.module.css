@@ -1,0 +1,10 @@
+.itemContainer {
+    height: fit-content;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.text {
+    display: list-item;
+}

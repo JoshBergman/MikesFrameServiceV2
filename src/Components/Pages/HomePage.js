@@ -37,6 +37,7 @@ const HomePage = () => {
             </div>
             <Heading boxTop="50px" >
                 What We Offer
+                (NOTE: add info to offer list items, add more pictures to slider and make auto slide timer for slider)
             </Heading>
             <SeperationBar />
             <div className={styles.flexContainer} >

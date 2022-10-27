@@ -33,14 +33,29 @@ const Reviews = (props) => {
 
     const googleReviews = [
         {
-            author : "Willy G.",
+            author : "Joseph H.",
             rating : 5,
-            comment : "My comment of this review!",
+            comment : "Awesome experience, very knowledgeable and good at communicating to someone who isn't car savvy. Fair prices too.",
         },
         {
-            author : "Allen H.",
+            author : "Jim M.",
             rating : 5,
-            comment : "My comment of this review!",
+            comment : "Went to Mike the first time on the recommendation of a friend who takes the commercial vehicles for his business there.  Was very pleased and have been back a couple of times since then.",
+        },
+        {
+            author : "Zachary B.",
+            rating : 5,
+            comment : "Amazing fast and professional service. He understands cars and knows what he can and cannot/will not do, he doesn't just throw parts at problems and charge ridiculous bills.",
+        },
+        {
+            author : "J B.",
+            rating : 5,
+            comment : "I'm excited to have this guy work on my racecar. Alignment, some fabrication, and welding. Seems very confident. Not many places like this in metro. The guy is really cool too.",
+        },
+        {
+            author : "Will G.",
+            rating : 5,
+            comment : "Mike was excellent to work with; Knowledgeable, timely, well priced, honest and nice. Highly recommend.",
         }
     ];
 

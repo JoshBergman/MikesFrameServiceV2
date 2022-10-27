@@ -19,3 +19,17 @@
     display: inline;
     font-size: 20px;
 }
+
+.anchor {
+    text-decoration: none;
+    color: inherit;
+}
+
+.anchor:hover {
+    cursor: pointer;
+}
+
+.linky {
+    display: inline;
+    text-decoration: underline;
+}
