@@ -37,21 +37,26 @@ const HomePage = () => {
             </div>
             <Heading boxTop="50px" >
                 What We Offer
-                (NOTE: add info to offer list items, add more pictures to slider and make auto slide timer for slider)
             </Heading>
             <SeperationBar />
             <div className={styles.flexContainer} >
                 <Offering to="/services" title="Frame" buttonTitle="Services" icon={<FaCarCrash style={iconStyle}/>} >
-                    <li style={listItemStyle} className={styles.listItem}>Option item a</li>
-                    <li style={listItemStyle} className={styles.listItem}>Option item b</li>
+                    <li style={listItemStyle} className={styles.listItem}>Frame Repair</li>
+                    <li style={listItemStyle} className={styles.listItem}>Unibody Repair</li>
+                    <li style={listItemStyle} className={styles.listItem}>Frame Analysis</li>
+                    <li style={listItemStyle} className={styles.listItem}>& More</li>
                 </Offering>
                 <Offering to="/services" title="Wheel & Tire" buttonTitle="Services" icon={<GiCarWheel style={iconStyle}/>} >
-                    <li style={listItemStyle} className={styles.listItem}>Option item a</li>
-                    <li style={listItemStyle} className={styles.listItem}>Option item b</li>
+                    <li style={listItemStyle} className={styles.listItem}>Tires</li>
+                    <li style={listItemStyle} className={styles.listItem}>Brakes</li>
+                    <li style={listItemStyle} className={styles.listItem}>Alignments</li>
+                    <li style={listItemStyle} className={styles.listItem}>& More</li>
                 </Offering>
                 <Offering to="/about" title="Quality Service" buttonTitle="About" icon={<FaHandshake style={iconStyle}/>} >
-                    <li style={listItemStyle} className={styles.listItem}>Option item a</li>
-                    <li style={listItemStyle} className={styles.listItem}>Option item b</li>
+                    <li style={listItemStyle} className={styles.listItem}>Fair Prices</li>
+                    <li style={listItemStyle} className={styles.listItem}>Integrity</li>
+                    <li style={listItemStyle} className={styles.listItem}>Professionalism</li>
+                    <li style={listItemStyle} className={styles.listItem}>& More</li>
                 </Offering>
             </div>
             <Heading boxTop="80px" fontSize="25px" >

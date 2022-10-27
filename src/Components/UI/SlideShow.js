@@ -4,6 +4,18 @@ import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 import styles from './SlideShow.module.css';
 import StyleData from '../../store/StyleContext';
 
+import pic1 from '../../images/pic1.jpg';
+import pic2 from '../../images/pic2.jpg';
+import pic3 from '../../images/pic3.jpg';
+import pic4 from '../../images/pic4.jpg';
+import pic5 from '../../images/pic5.jpg';
+import pic6 from '../../images/pic6.jpg';
+import pic7 from '../../images/pic7.jpg';
+import pic8 from '../../images/pic8.jpg';
+import pic9 from '../../images/pic9.jpg';
+import pic10 from '../../images/pic10.jpg';
+import pic11 from '../../images/pic11.jpg';
+
 const SlideShow = () => {
     const [currImg, setCurrImg] = useState(0);
     const stylectx = useContext(StyleData);
@@ -29,15 +41,23 @@ const SlideShow = () => {
     };
 
 const images = [
-    "http://nebula.wsimg.com/016d5488cc81cb66c1bb0525400d8ee2?AccessKeyId=0F89FA1A33796F6C2EC6&disposition=0&alloworigin=1",
-    "http://nebula.wsimg.com/ce0fb999ecb0adf454435e30b2b2ebf6?AccessKeyId=0F89FA1A33796F6C2EC6&disposition=0&alloworigin=1",
-    "http://nebula.wsimg.com/fb4912845fbc8be71a85c17f30c0e08d?AccessKeyId=0F89FA1A33796F6C2EC6&disposition=0&alloworigin=1",
+    pic1,
+    pic2,
+    pic3,
+    pic4,
+    pic5,
+    pic6,
+    pic7,
+    pic8,
+    pic9,
+    pic10,
+    pic11
   ];
 
 const imgElements = {};
 
   for (let i = 0; i < images.length; i++){
-    imgElements[i] = <img src={images[i]} className={styles.pic} />;
+    imgElements[i] = <img src={images[i]} className={styles.pic} alt="Decorative Image" />;
   }
       
           return (
