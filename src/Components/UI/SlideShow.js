@@ -57,7 +57,7 @@ const images = [
 const imgElements = {};
 
   for (let i = 0; i < images.length; i++){
-    imgElements[i] = <img src={images[i]} className={styles.pic} alt="Decorative Image" />;
+    imgElements[i] = <img src={images[i]} className={styles.pic} alt="Decorative Car" />;
   }
       
           return (

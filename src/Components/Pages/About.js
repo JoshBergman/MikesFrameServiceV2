@@ -53,7 +53,7 @@ const About = () => {
             <SeperationBar />
             <Reviews yelp={true} />
             <div className={styles.buttonContainer}>
-            <a href="https://www.yelp.com/biz/mikes-frame-service-minneapolis"
+            <a rel="noreferrer" href="https://www.yelp.com/biz/mikes-frame-service-minneapolis"
              className={styles.link}
              target="_blank"
              >
@@ -66,7 +66,7 @@ const About = () => {
             <SeperationBar />
             <Reviews google={true} />
             <div className={styles.buttonContainer}>
-            <a href="https://www.google.com/search?sxsrf=ALiCzsZ-MBAhJqgSqCmTv2Igr7170TtfMA:1666817708663&q=mike%27s+frame+service&spell=1&sa=X&ved=2ahUKEwjh9Lfr4_76AhXQrokEHUO3AV8QBSgAegQIMxAB&cshid=1666817718696665&biw=1169&bih=955&dpr=1#lrd=0x87f62848e291dee9:0xf1372f8a788de1cf,1,,,"
+            <a rel="noreferrer" href="https://www.google.com/search?sxsrf=ALiCzsZ-MBAhJqgSqCmTv2Igr7170TtfMA:1666817708663&q=mike%27s+frame+service&spell=1&sa=X&ved=2ahUKEwjh9Lfr4_76AhXQrokEHUO3AV8QBSgAegQIMxAB&cshid=1666817718696665&biw=1169&bih=955&dpr=1#lrd=0x87f62848e291dee9:0xf1372f8a788de1cf,1,,,"
              className={styles.link}
              target="_blank"
              >

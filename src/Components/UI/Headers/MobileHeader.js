@@ -1,5 +1,4 @@
 import React, { useState, useContext } from 'react';
-import { Link } from "react-router-dom";
 
 import StyleData from '../../../store/StyleContext';
 import MenuModal from './MenuModal';

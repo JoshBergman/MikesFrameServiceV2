@@ -11,9 +11,62 @@
 }
 
 .footerSubject {
-    background-color: green;
-
     width: 30%;
     height: 80%;
     margin-top: 20px;
+}
+
+.mainContainer {
+    background-color: rgb(19, 19, 19);
+    height: 140px;
+    margin-top: 100px;
+    box-shadow: 0 0px 2px 2px rgb(75, 75, 75);
+}
+
+.infoContainer {
+    display: inline-block;
+    height: 90%;
+    width: 35vw;
+}
+
+.aboutContainer {
+    display: inline-block;
+    height: 90%;
+    width: 35vw;
+}
+
+.spacerContainer {
+    display: inline-block;
+    height: 20px;
+    width: 30vw;
+}
+
+.subSpacer {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.header {
+    color:rgb(120, 120, 120);
+    text-align: left;
+    text-decoration: underline;
+    font-size: 16px;
+    margin-left: 12px;
+    margin-bottom:0;
+}
+
+.item {
+    text-align: left;
+    margin: 2px;
+}
+
+.anchor {
+    color: rgb(101, 101, 101);
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.anchor:hover {
+    text-decoration: underline;
 }

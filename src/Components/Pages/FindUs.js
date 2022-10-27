@@ -40,8 +40,8 @@ const FindUs = () => {
         <Heading boxTop="120px">Map</Heading>
         <SeperationBar />
         <div className={styles.centeredDiv}>
-            <a target="_blank" href="https://www.google.com/maps/place/Mike's+Frame+Services/@44.9322675,-93.2281039,16.75z/data=!4m5!3m4!1s0x87f62848e291dee9:0xf1372f8a788de1cf!8m2!3d44.9323121!4d-93.2257447">
-                <img className={styles.img} src={pic} />
+            <a rel="noreferrer" target="_blank" href="https://www.google.com/maps/place/Mike's+Frame+Services/@44.9322675,-93.2281039,16.75z/data=!4m5!3m4!1s0x87f62848e291dee9:0xf1372f8a788de1cf!8m2!3d44.9323121!4d-93.2257447">
+                <img alt="of google maps pin that opens google maps when clicked" className={styles.img} src={pic} />
             </a>
         </div>
     </PageTemplate>
