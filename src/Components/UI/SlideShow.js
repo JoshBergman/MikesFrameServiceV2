@@ -51,7 +51,7 @@ const images = [
     pic8,
     pic9,
     pic10,
-    pic11
+    pic11,
   ];
 
 const imgElements = {};
